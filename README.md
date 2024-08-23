@@ -4,7 +4,7 @@
 
 Para utilizar o projeto Auto Doc, siga os passos abaixo:
 
-1. Instale o pacote globalmente executando o comando `npm install -g gen_doc`.
+1. Instale o pacote globalmente executando o comando `npm install -g`.
 2. Navegue para o diretório do projeto que deseja criar a documentação.
 3. Execute o comando `gen_doc create`.
 
