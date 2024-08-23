@@ -87,7 +87,7 @@ Essa função é chamada dentro da função `main` e não é invocada diretament
 1. O programa começa em `index.js`, no qual é chamada a função `main`.
 2. A função `readFilesInDirectory` é acionada, lendo o diretório atual e armazenando conteúdos no `output.txt`.
 3. Em seguida, a função `callAi` é chamada, que lê o `output.txt` e envia os dados para a API OpenAI.
-4. A resposta é gravada em `README.md`.
+4. A resposta é gravada em `documentation.md`.
 5. Por fim, o arquivo `output.txt` é excluído.
 
 ## Dependências
