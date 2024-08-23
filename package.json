@@ -1,0 +1,15 @@
+{
+  "name": "gen-doc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Um CLI para gerar documentação de arquivos de texto.",
+  "main": "index.js",
+  "bin": {
+    "gen_doc": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "openai": "^4.56.0",
+    "ora": "^8.0.1"
+  }
+}
