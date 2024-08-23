@@ -26,7 +26,7 @@ export default async function callAi() {
         presence_penalty: 0,
     });
 
-    const outputFile = fs.createWriteStream("output.md");
+    const outputFile = fs.createWriteStream("documentation.md");
 
     for await (const chunk of stream) {
         const response = chunk.choices[0]?.delta?.content || "";
