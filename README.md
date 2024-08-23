@@ -1,5 +1,17 @@
 # Documentação do Projeto Auto Doc
 
+## Uso
+
+Para utilizar o projeto Auto Doc, siga os passos abaixo:
+
+1. Instale o pacote globalmente executando o comando `npm install -g gen_doc`.
+2. Navegue para o diretório do projeto que deseja criar a documentação.
+3. Execute o comando `gen_doc create`.
+
+Isso irá gerar automaticamente a documentação do projeto JavaScript no arquivo `README.md`.
+
+Certifique-se de ter configurado corretamente a chave da API OpenAI na variável de ambiente `OPENAI_API_KEY` antes de executar o projeto.
+
 ## Visão Geral
 
 O projeto Auto Doc é uma ferramenta desenvolvida para gerar documentação automática de projetos JavaScript. Ele lê arquivos em um diretório especificado, compila seu conteúdo e utiliza a API da OpenAI para criar um arquivo de documentação formatado em Markdown.
